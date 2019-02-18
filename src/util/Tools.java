@@ -38,6 +38,7 @@ public class Tools {
     }
         /**
          *获取数据库连接
+         *@author dylan
          */
         public static Connection getConnection(){
             try {
