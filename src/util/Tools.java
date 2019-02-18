@@ -50,6 +50,7 @@ public class Tools {
         }
         /**
          * 关闭资源
+         * @author dylan
          */
         public static void close(Connection conn, PreparedStatement pst, ResultSet rs){
             if(rs != null){
